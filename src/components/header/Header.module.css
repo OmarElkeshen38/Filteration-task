@@ -1,0 +1,252 @@
+.header {
+  /* background-color: #fff; */
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+
+.bgImage {
+  position: relative;
+  width: 75%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bgImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headerContent {
+    /* background-color: #fff; */
+  width: 50% !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+}
+
+.headerTitle {
+  margin-bottom: 25px;
+}
+
+.textTitle h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #6d91ee;
+  line-height: 27px;
+}
+
+.textTitle span {
+  font-size: 21px;
+  font-weight: 800;
+  color: #6d91ee;
+  letter-spacing: 15px;
+}
+
+.headerContentDesc {
+  padding-top: 25px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContentDesc h3 {
+  background-color: #6d91ee;
+  color: #fff;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 12px 30px;
+  font-size: 24px;
+}
+
+.headerContentDesc h2 {
+  color: #4f4f4f;
+  width: fit-content;
+  font-size: 95px;
+  font-weight: 250;
+  line-height: 90px;
+}
+
+.headerContentDesc span {
+  color: #4f4f4f;
+  width: fit-content;
+  font-size: 95px;
+  font-weight: 900;
+}
+
+.headerContentDesc p {
+  color: #4f4f4f;
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 600;
+  width: 70%;
+  margin: 15px 0px;
+}
+
+@media (max-width: 1250px) {
+  .bgImage {
+    width: 90%;
+  }
+
+  .headerContentDesc h2 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .headerContentDesc span {
+    font-size: 70px;
+  }
+
+  .headerContentDesc p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 925px) {
+  .bgImage {
+    width: 100%;
+  }
+
+  .headerContent {
+    width: 55% !important;
+  }
+
+  .headerTitle {
+    margin-bottom: 15px;
+  }
+
+  .textTitle h1 {
+    font-size: 45px;
+  }
+
+  .textTitle span {
+    font-size: 21px;
+    letter-spacing: 8px;
+  }
+
+  .truckIcon {
+    width: 80px;
+  }
+
+  .headerContentDesc {
+    padding-top: 15px !important;
+  }
+
+  .headerContentDesc h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .headerContentDesc span {
+    font-size: 50px;
+  }
+
+  .headerContentDesc p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 730px) {
+    .headerContent {
+        width: 70% !important;
+      }
+
+    .headerTitle {
+        margin-bottom: 15px;
+      }
+    
+      .textTitle h1 {
+        font-size: 40px;
+      }
+    
+      .textTitle span {
+        font-size: 21px;
+        /* letter-spacing: 8px; */
+      }
+    
+      .truckIcon {
+        width: 70px;
+      }
+    
+      .headerContentDesc {
+        padding-top: 10px !important;
+      }
+
+    .headerContentDesc h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    
+    .headerContentDesc span {
+        font-size: 45px;
+    }
+    
+    .headerContentDesc p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .headerContent {
+        width: 80% !important;
+      }
+
+      .textTitle h1 {
+        font-size: 38px;
+      }
+    
+      .textTitle span {
+        font-size: 21px;
+        letter-spacing: 5px;
+      }
+    
+      .truckIcon {
+        width: 70px;
+      }
+    
+
+  .headerContentDesc h2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .headerContentDesc span {
+    font-size: 45px;
+  }
+
+  .headerContentDesc p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 430px) {
+    .headerContent {
+        width: 90% !important;
+      }
+      .textTitle h1 {
+        font-size: 35px;
+      }
+    
+      .textTitle span {
+        font-size: 20px;
+        letter-spacing: 4px;
+      }
+
+      .headerContentDesc h2 {
+        font-size: 40px;
+        line-height: 40px;
+      }
+    
+      .headerContentDesc span {
+        font-size: 40px;
+      }
+    
+    
+      .truckIcon {
+        width: 60px;
+      }
+    }

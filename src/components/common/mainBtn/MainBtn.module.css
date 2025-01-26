@@ -1,0 +1,18 @@
+
+
+.mainBtn {
+    background-color: #5180F6;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    border-radius: 70px;
+    padding: 10px 40px;
+    font-size: 24px;
+}
+
+@media (max-width: 430px) {
+    .mainBtn {
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+}
