@@ -44,12 +44,12 @@
   font-size: 64px;
   font-weight: 900;
   color: #6d91ee;
-  padding: 22px 40px;
+  padding: 8px 15px;
 }
 
 @media (max-width: 768px) {
   .sectionTitle h2 {
     font-size: 45px;
-    padding: 15px 25px;
+    padding: 5px 10px;
   }
 }

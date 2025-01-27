@@ -14,7 +14,7 @@ function Service() {
         <ServiceItem image={service2} title="Lorem Ipsum" desc='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled' />
         <ServiceItem image={service3} title="Lorem Ipsum" desc='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled' />
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center mb-3">
         <MainBtn />
       </div>
     </div>
