@@ -89,7 +89,7 @@
     }
     .rubbishImg {
         width: 90%;
-        margin-top: 10px; /* Reduced margin-top for mobile */
+        margin-top: 10px;
     }
     .rightContentWrapper {
         padding: 0px !important;
@@ -106,9 +106,9 @@
     }
     .rubbishImg {
         width: 100%;
-        margin-top: 8px; /* Reduced margin-top for mobile */
+        margin-top: 8px;
     }
     .col-md-12 {
-        padding: 0.25rem; /* Reduced padding */
+        padding: 0.25rem;
     }
 }
