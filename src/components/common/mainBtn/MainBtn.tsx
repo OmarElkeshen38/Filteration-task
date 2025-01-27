@@ -1,9 +1,16 @@
 import styles from './MainBtn.module.css';
 
-function mainBtn() {
+function MainBtn({ bgc = '#5180F6', color = '#fff' }) {
+    const buttonStyles = {
+        backgroundColor: bgc,
+        color: color,
+    };
+
     return (
-        <button className={styles.mainBtn}>Help Me</button>
-    )
+        <button className={styles.mainBtn} style={buttonStyles}>
+            Help Me
+        </button>
+    );
 }
 
-export default mainBtn
+export default MainBtn
