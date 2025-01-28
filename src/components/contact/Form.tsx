@@ -20,7 +20,7 @@ function Form() {
     const onSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://upskilling-egypt.com:3001/contact", formData);
+            const response = await axios.post("https://upskilling-egypt.com:3001/contact", formData);
             console.log("Response:", response.data);
             alert("Form submitted successfully!");
         } catch (error) {
