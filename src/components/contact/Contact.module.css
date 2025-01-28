@@ -1,0 +1,50 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    width: 100%;
+}
+
+.form input {
+    width: 60%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 60px;
+    background-color: #CEDCFF;
+    border: none;
+}
+
+.form input::placeholder {
+    font-size: 16px;
+    color: #000;
+}
+
+.btn {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.btn button {
+    padding: 10px 50px;
+    border-radius: 60px;
+    color: #000;
+    border: 3px solid #5180F6;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #5180F6;
+    color: #fff;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
